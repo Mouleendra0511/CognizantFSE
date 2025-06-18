@@ -7,9 +7,9 @@ public class Main {
         logger2.log("Logger reused for another message.");
 
         if (logger1 == logger2) {
-            System.out.println("✅ Both logger references point to the same instance.");
+            System.out.println("Both logger references point to the same instance.");
         } else {
-            System.out.println("❌ Different logger instances exist");
+            System.out.println("Different logger instances exist");
         }
     }
 }
