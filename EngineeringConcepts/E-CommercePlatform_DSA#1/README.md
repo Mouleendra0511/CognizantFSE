@@ -34,7 +34,7 @@ This project is part of the **Cognizant Java Full Stack Engineer Deep Skilling P
 
 ## 🚀 Technologies
 
-- Java 8+
+- Java 17
 - Object-Oriented Programming
 - Array manipulation and sorting
 
