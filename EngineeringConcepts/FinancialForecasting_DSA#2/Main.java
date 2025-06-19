@@ -8,7 +8,7 @@ public class Main {
         OptimizedForecast optimized = new OptimizedForecast();
         System.out.println(" Recursive Forecast:");
         System.out.printf("Value after %d years: Rs%.2f%n", years, forecast.forecastRecursive(initialValue, growthRate, years));
-        System.out.println("\n Optimized Recursive Forecast (Memoization):");
+        System.out.println("\n Optimized Recursive Forecast :");
         System.out.printf("Value after %d years: Rs%.2f%n",
                 years, optimized.forecastMemoized(initialValue, growthRate, years));
     }
