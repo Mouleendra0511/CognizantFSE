@@ -43,9 +43,10 @@ Computer gamingPC = new Computer.Builder("Intel i9", "32GB")
 
 ⚙️ How to Run
 Compile:
+```
 javac Computer.java BuilderPatternTest.java
 java BuilderPatternTest
-
+```
 🧠 Why Use the Builder Pattern?
 - Problem	Builder Pattern Solution
 - Too many constructor arguments	Splits into readable setter methods
