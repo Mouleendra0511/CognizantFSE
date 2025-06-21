@@ -16,8 +16,6 @@ class Order {
 }
 
 public class OrderSorter {
-
-    // Bubble Sort Implementation
     public static void bubbleSort(Order[] orders) {
         int n = orders.length;
         for (int i = 0; i < n-1; i++) {
@@ -31,8 +29,6 @@ public class OrderSorter {
             }
         }
     }
-
-    // Quick Sort Implementation
     public static void quickSort(Order[] orders, int low, int high) {
         if (low < high) {
             int pi = partition(orders, low, high);
@@ -47,21 +43,17 @@ public class OrderSorter {
         for (int j = low; j < high; j++) {
             if (orders[j].totalPrice < pivot) {
                 i++;
-                // Swap
                 Order temp = orders[i];
                 orders[i] = orders[j];
                 orders[j] = temp;
             }
         }
-        // Swap pivot
         Order temp = orders[i + 1];
         orders[i + 1] = orders[high];
         orders[high] = temp;
 
         return i + 1;
     }
-
-    // Helper method to print the array
     public static void printOrders(Order[] orders) {
         for (Order order : orders) {
             System.out.println(order);
@@ -77,18 +69,14 @@ public class OrderSorter {
             new Order(104, "David", 120.75),
             new Order(105, "Eve", 320.0)
         };
-
-        // Original Orders
         System.out.println("Original Orders:");
         printOrders(orders);
 
-        // Bubble Sort
         Order[] bubbleSortedOrders = orders.clone();
         bubbleSort(bubbleSortedOrders);
         System.out.println("Orders Sorted by Bubble Sort:");
         printOrders(bubbleSortedOrders);
 
-        // Quick Sort
         Order[] quickSortedOrders = orders.clone();
         quickSort(quickSortedOrders, 0, quickSortedOrders.length - 1);
         System.out.println("Orders Sorted by Quick Sort:");
