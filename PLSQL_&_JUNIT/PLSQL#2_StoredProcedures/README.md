@@ -21,7 +21,7 @@ This project includes stored procedures that automate key banking operations usi
 
 - Required tables: `Accounts`, `Employees`
 - All table creation and sample data scripts are included in `Banks.sql`
-- Each stored procedure is defined in its own `.sql` file for modular testing and submission.
+- Each stored procedure is defined in the `Procedures.sql` file.
 - You can test the procedures using `EXEC` statements in SQL Developer or Oracle Live SQL.
 
 ---
@@ -29,9 +29,7 @@ This project includes stored procedures that automate key banking operations usi
 ## 📂 Files Included
 
 - `Banks.sql` – Creates tables and inserts sample data
-- `process_monthly_interest.sql` – Procedure for applying savings interest
-- `update_employee_bonus.sql` – Procedure for updating employee bonuses
-- `transfer_funds.sql` – Procedure for transferring account funds
+- `Procedures.sql` – Procedure for applying savings interest, Procedure for updating employee bonuses, Procedure for transferring account funds.
 - `README.md` – Overview and instructions
 
 ---
