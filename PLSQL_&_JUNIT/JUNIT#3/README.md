@@ -82,8 +82,5 @@ Ensure you have **Maven** installed on your system. Then follow these steps:
 
 ---
 
-## 🙋 Author
 
-**Aaith Aditya Sai Mouleendra**  
-Cognizant Java FSE Program - JUnit Module
 
