@@ -66,8 +66,11 @@ Visit http://localhost:8080/h2-console
 JDBC URL: jdbc:h2:mem:librarydb
 ```
 📚 Sample JSON for POST/PUT
+```
 {
   "title": "Spring in Action",
   "author": "Craig Walls",
   "isbn": "9781617294945"
 }
+```
+
