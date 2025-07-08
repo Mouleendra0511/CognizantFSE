@@ -60,11 +60,11 @@ Use Postman or curl to test:
 * POST /books
 * PUT /books/{id}
 * DELETE /books/{id}
-
+```
 H2 Console:
 Visit http://localhost:8080/h2-console
 JDBC URL: jdbc:h2:mem:librarydb
-
+```
 📚 Sample JSON for POST/PUT
 {
   "title": "Spring in Action",
