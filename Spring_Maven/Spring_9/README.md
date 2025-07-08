@@ -34,9 +34,8 @@ LibraryManagement/
 │ │ │ ├── controller/BookController.java
 │ │ │ ├── model/Book.java
 │ │ │ └── repository/BookRepository.java
-│ │ └── resources/
-│ │ ├── application.properties
-│ │ └── data.sql (optional for pre-loading data)
+│ │ └── resources/application.properties
+│ │    └── data.sql (optional for pre-loading data)
 └── pom.xml
 ```
 
